@@ -10,7 +10,7 @@ const InputWrapper = styled.div`
     border-radius: 1rem;
     box-shadow: #354a5389 0px 5px 0px, #354a5389 0px 8px 24px, #354a53 0px 16px 48px;
 `;
-/
+
 const Content = styled.div`
   max-width: 600px;
   margin: 40px auto;
