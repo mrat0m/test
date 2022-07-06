@@ -1,27 +1,16 @@
 import { Button, TextField } from '@mui/material';
 import styled from 'styled-components';
-import { Link } from "react-router-dom";
 import { useForm } from 'react-hook-form';
 
 const InputWrapper = styled.div`
-    /* color:#333; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 500px;
-    height: 800px; */
-    /* margin-top: 100px; */
-    /* background-color: pink; */
+ 
     border-radius: 1rem;
     box-shadow: #354a5389 0px 5px 0px, #354a5389 0px 8px 24px, #354a53 0px 16px 48px;
 `;
-// const InputRowWapper = styled.div`
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     margin-left: 20px;
-//     margin-right: 20px;
-// `;
+/
 const Content = styled.div`
   max-width: 600px;
   margin: 40px auto;
@@ -32,10 +21,6 @@ const Content = styled.div`
 const Test = () => {
     const {
 		register,
-		reset,
-		getValues,
-		setValue,
-		handleSubmit,
 		formState: { errors, isValid }
 	} = useForm({ mode: "all", reValidateMode: "all" });
 
